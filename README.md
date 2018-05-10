@@ -1,5 +1,4 @@
 # Exercise Requirements
-Copy and paste the code below into the index.html file for this exercise.
 
 For this exercise you can't add any classes or ids to the provided HTML in order to fulfill the requirements
 
