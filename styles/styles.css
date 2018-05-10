@@ -1,0 +1,51 @@
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+span {
+    display: block;
+    border: solid 1px;
+    margin: 25px;
+}
+
+.n-child section:nth-child(even) {
+    border: solid 1px;
+    color: red;
+}
+
+ul>li:after{
+    content:",";
+}
+
+.n-type section:nth-child(even){
+    color: blue;
+}
+
+.first-of-type aside:first-of-type{
+    background-color: lime;
+}
+
+.first-of-type section:first-of-type{
+    background-color: purple;
+}
+
+.three section{
+    background-color: orange;
+}
+
+.three :first-child{
+    background-color: goldenrod;
+}
+
+.three :last-child{
+    background-color: darkslategray;
+}
+
+article:before {
+    content: "Article parent element";
+    border: dashed gray;
+    background-color: royalblue;
+    width: 100%;
+
+}
